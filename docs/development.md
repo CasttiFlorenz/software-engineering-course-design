@@ -4,8 +4,8 @@
 
 | 任务 | 运行方式 | 需要安装 |
 | --- | --- | --- |
-| 首次验收、联调或演示 | A · Compose 启动全部服务 | Git、Docker Desktop（含 Compose） |
-| 修改前端或 Go 代码 | B · 本机 Go + Vite | Git、Go 1.25+、Node.js 24（含 npm）；运行数据库时另需 Docker |
+| 首次验收、联调或演示 | A - Compose 启动全部服务 | Git、Docker Desktop（含 Compose） |
+| 修改前端或 Go 代码 | B - 本机 Go + Vite | Git、Go 1.25+、Node.js 24（含 npm）；运行数据库时另需 Docker |
 
 ## 1. 获取代码
 
@@ -45,7 +45,7 @@ Set-Location software-engineering-course-design
 
 先运行 `go version`、`node --version` 和 `npm --version` 确认工具可用。Compose 的 Web 服务与本机 Go 默认都使用 8080，切换开发方式前先停止占用该端口的环境。
 
-**终端 1 · 从仓库根目录启动 Go**
+**终端 1 - 从仓库根目录启动 Go**
 
 ```powershell
 go run ./cmd/server
@@ -53,7 +53,7 @@ go run ./cmd/server
 
 Go 默认监听 `127.0.0.1:8080`。修改 Go 后按 Ctrl+C，再执行启动命令。
 
-**终端 2 · 从仓库根目录启动 Vite**
+**终端 2 - 从仓库根目录启动 Vite**
 
 ```powershell
 Set-Location web

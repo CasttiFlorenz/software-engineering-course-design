@@ -1,4 +1,5 @@
-# 研改 · 课程作业互评与修订平台
+# 研改 - 课程作业互评与修订平台
+
 
 研改将作业答疑、匿名互评和作品修订放在同一流程中。学生可以针对含糊的评语追问，把反馈关联到修订位置；教师可以对照初稿、反馈与修订稿。首版覆盖一个班的一次作业。目前可启动 Web、API 和数据库环境，业务功能按下列增量交付。
 
@@ -65,8 +66,7 @@ docker compose up --build --wait
 ├── migrations/              # PostgreSQL 迁移约定
 ├── docs/
 │   ├── README.md            # 文档索引
-│   ├── course-plan.md       # 第 2–8 课及课后迭代计划
-│   ├── research-plan.md     # 调研点、认领与提交要求
+│   ├── work-plans/          # 课程周计划、调研与 SRS 分工
 │   ├── research-reports/    # 调研报告
 │   ├── user-stories/        # 用户故事与验收标准
 │   ├── requirements/        # SRS、用例与追溯矩阵
