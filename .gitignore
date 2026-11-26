@@ -5,3 +5,22 @@
 .env
 .env.*
 !.env.example
+
+# IDE
+/.vs/
+/.idea/
+*.user
+*.suo
+
+# Go 构建产物与测试输出
+/bin/
+/server
+*.exe
+*.test
+*.out
+coverage.*
+
+# 操作系统
+Thumbs.db
+Desktop.ini
+.DS_Store
