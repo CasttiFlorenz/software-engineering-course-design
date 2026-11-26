@@ -1,9 +1,11 @@
 # 研改文档索引
 
+
 | 类别 | 入口与归档 |
 | --- | --- |
-| 课程计划与进度 | [周计划与检查点](course-plan.md) |
-| 调研 | [分工和方法](research-plan.md)、[组员报告](research-reports/) |
+| 课程计划与进度 | [周计划与检查点](work-plans/course-plan.md) |
+| 阶段工作计划 | [分工、检查清单与 GitHub Issue](work-plans/README.md) |
+| 调研 | [分工和方法](work-plans/research-plan.md)、[组员报告](research-reports/) |
 | 需求 | [用户故事](user-stories/)、[SRS、用例与追溯矩阵](requirements/) |
 | 分析建模 | [类图、状态图、顺序图与活动图](models/) |
 | 设计 | [架构、接口、数据库、部署图与 ADR](design/) |
