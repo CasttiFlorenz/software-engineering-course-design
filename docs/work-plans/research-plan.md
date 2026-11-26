@@ -29,7 +29,7 @@
 ## 组员提交要求
 
 1. 每人按上表负责两个调研点，参与真人干系人访谈。可联合访谈，纪要可以共用。记录日期、匿名代号与角色、关键问答、现有流程和需求发现。
-2. 每人交一份覆盖两点的 Markdown 报告和两条用户故事。报告放在 `docs/research-reports/`，如 `R03-R04.md`，附纪要或链接。故事放在 `docs/user-stories/`，如 `R03.md` 和 `R04.md`，写清角色、目标、价值，并链接报告对应章节。公开材料先脱敏。
+2. 每人交一份覆盖两点的 Markdown 报告和至少两条用户故事。报告放在 `docs/research-reports/`，附纪要或链接。故事放在 `docs/user-stories/`，每条聚焦一个用户目标，写清角色、目标和价值，并关联报告对应章节。一个调研点可以支持多条故事，例如 `R03-1.md` 与 `R03-2.md`。公开材料先脱敏。
 3. 从最新 `main` 开个人分支，如 `docs/research-r03-r04`。只暂存自己负责的文件，提交、推送后向 `main` 开 PR。在 PR 中列调研编号、报告和故事路径，由一名组员核对证据与故事是否对应，批准后合并。
 
 ```sh
@@ -37,7 +37,7 @@ git switch main
 git pull --ff-only
 git switch -c docs/research-r03-r04
 # 写好报告与故事后，只暂存本次提交涉及的文件
-git add docs/research-reports/R03-R04.md docs/user-stories/R03.md docs/user-stories/R04.md
+git add docs/research-reports/R03-R04-Research-Reports.md docs/user-stories/R03-1.md docs/user-stories/R03-2.md docs/user-stories/R04-1.md docs/user-stories/R04-2.md
 git commit -m "docs(research): 补充 R03 和 R04 调研与用户故事"
 git push -u origin docs/research-r03-r04
 ```
