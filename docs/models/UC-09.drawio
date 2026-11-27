@@ -1,0 +1,64 @@
+<mxfile host="Electron">
+  <diagram id="UC-09" name="UC-09 查看统一答复">
+    <mxGraphModel dx="1247" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="760" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="head" parent="1" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;text;align=left;fontSize=25;fontStyle=1;" value="UC-09 查看统一答复" vertex="1">
+          <mxGeometry height="46" width="990" x="42" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="sys" parent="1" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;verticalAlign=top;spacingTop=15;fontStyle=1;" value="研改 - 课程作业互评与修订平台" vertex="1">
+          <mxGeometry height="495" width="825" x="220" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="a0" parent="1" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" value="学生" vertex="1">
+          <mxGeometry height="70" width="42" x="75" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="u0" parent="1" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;ellipse;whiteSpace=wrap;fontStyle=1;strokeWidth=2;" value="查看统一答复" vertex="1">
+          <mxGeometry height="69" width="257" x="295" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="u1" parent="1" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;ellipse;whiteSpace=wrap;" value="检查班级与作业访问权限" vertex="1">
+          <mxGeometry height="69" width="257" x="729" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="u2" parent="1" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;ellipse;whiteSpace=wrap;" value="读取获准查看的最新答复" vertex="1">
+          <mxGeometry height="69" width="257" x="729" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="u4" parent="1" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;ellipse;whiteSpace=wrap;" value="查看答复更新时间" vertex="1">
+          <mxGeometry height="69" width="257" x="295" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="aedge0" edge="1" parent="1" source="a0" style="strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#ffffff;fontSize=12;endArrow=none;" target="u0" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aedge1" edge="1" parent="1" source="a0" style="strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#ffffff;fontSize=12;endArrow=none;" target="u4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="include0" edge="1" parent="1" source="u0" style="strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#ffffff;fontSize=12;dashed=1;endArrow=open;endFill=0;" target="u1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="include1" edge="1" parent="1" source="u0" style="strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#ffffff;fontSize=12;dashed=1;endArrow=open;endFill=0;" target="u2" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u5" parent="1" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;ellipse;whiteSpace=wrap;" value="检查答复可见范围与授权名单" vertex="1">
+          <mxGeometry height="62" width="257" x="729" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="include2" edge="1" parent="1" source="u0" style="strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#ffffff;fontSize=12;dashed=1;endArrow=open;endFill=0;" target="u5" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" parent="1" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" value="教师" vertex="1">
+          <mxGeometry height="60" width="42" x="75" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" parent="1" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" value="助教" vertex="1">
+          <mxGeometry height="60" width="42" x="75" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="u3" parent="1" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;ellipse;whiteSpace=wrap;" value="发布作业答复（UC-08）" vertex="1">
+          <mxGeometry height="69" width="257" x="295" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-a1" edge="1" parent="1" source="a1" style="strokeColor=#000000;endArrow=none;" target="u3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-a2" edge="1" parent="1" source="a2" style="strokeColor=#000000;endArrow=none;" target="u3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

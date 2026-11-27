@@ -1,0 +1,26 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="UC-07" name="UC-07 提交作业疑问">
+    <mxGraphModel grid="1" page="1" pageWidth="1100" pageHeight="760" background="#ffffff">
+      <root><mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="head" value="UC-07 提交作业疑问" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;text;align=left;fontSize=25;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="42" y="28" width="990" height="46" as="geometry"/></mxCell>
+        <mxCell id="sys" value="研改 - 课程作业互评与修订平台" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;verticalAlign=top;spacingTop=15;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="220" y="94" width="825" height="495" as="geometry"/></mxCell>
+        <mxCell id="a0" value="学生" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="75" y="164" width="42" height="70" as="geometry"/></mxCell>
+        <mxCell id="a1" value="教师" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="75" y="318" width="42" height="70" as="geometry"/></mxCell>
+        <mxCell id="a2" value="助教" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="75" y="472" width="42" height="70" as="geometry"/></mxCell>
+        <mxCell id="u0" value="提交作业疑问" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;ellipse;whiteSpace=wrap;fontStyle=1;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="295" y="163" width="257" height="69" as="geometry"/></mxCell>
+        <mxCell id="identity-choice" value="选择实名或匿名提问" style="ellipse;whiteSpace=wrap;fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;" vertex="1" parent="1"><mxGeometry x="729" y="443" width="257" height="69" as="geometry"/></mxCell>
+        <mxCell id="include-identity-choice" value="«include»" style="dashed=1;endArrow=open;endFill=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="u0" target="identity-choice"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="u1" value="检查提问资格与开放状态" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;ellipse;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="729" y="143" width="257" height="69" as="geometry"/></mxCell>
+        <mxCell id="u2" value="校验问题正文" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;ellipse;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="729" y="293" width="257" height="69" as="geometry"/></mxCell>
+        <mxCell id="u3" value="查看本人问题状态" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;ellipse;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="295" y="320" width="257" height="69" as="geometry"/></mxCell>
+        <mxCell id="u4" value="查看待答复问题" style="fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;fontSize=15;ellipse;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="295" y="459" width="257" height="69" as="geometry"/></mxCell>
+        <mxCell id="aedge0" value="" style="strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#ffffff;fontSize=12;endArrow=none;" edge="1" parent="1" source="a0" target="u0"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="aedge1" value="" style="strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#ffffff;fontSize=12;endArrow=none;" edge="1" parent="1" source="a0" target="u3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="aedge2" value="" style="strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#ffffff;fontSize=12;endArrow=none;" edge="1" parent="1" source="a1" target="u4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="aedge3" value="" style="strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#ffffff;fontSize=12;endArrow=none;" edge="1" parent="1" source="a2" target="u4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="include0" value="&#171;include&#187;" style="strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#ffffff;fontSize=12;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="u0" target="u1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="include1" value="&#171;include&#187;" style="strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#ffffff;fontSize=12;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="u0" target="u2"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
