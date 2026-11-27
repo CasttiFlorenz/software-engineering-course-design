@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="uc13" name="UC-13">
+    <mxGraphModel dx="1120" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1120" pageHeight="510" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="UC-13 核对作品及评阅人身份" style="fontFamily=Microsoft YaHei;fontColor=#111827;strokeColor=#334155;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="28" y="20" width="950" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="system" value="研改 · 课程作品互评与修订平台" style="fontFamily=Microsoft YaHei;fontColor=#111827;strokeColor=#334155;rounded=0;fillColor=#ffffff;align=center;verticalAlign=top;spacingTop=14;fontSize=19;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="95" width="850" height="365" as="geometry" />
+        </mxCell>
+        <mxCell id="actor0" value="任课教师" style="fontFamily=Microsoft YaHei;fontColor=#111827;strokeColor=#334155;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#ffffff;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="94" y="156" width="48" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="actor1" value="获身份查询授权的助教" style="fontFamily=Microsoft YaHei;fontColor=#111827;strokeColor=#334155;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#ffffff;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="94" y="298" width="48" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="main" value="核对作品及评阅人身份" style="fontFamily=Microsoft YaHei;fontColor=#111827;strokeColor=#334155;ellipse;fillColor=#edf4ff;whiteSpace=wrap;fontStyle=1;strokeWidth=2;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="280" y="218" width="310" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="sub0" value="核对作者与评阅人对应关系" style="fontFamily=Microsoft YaHei;fontColor=#111827;strokeColor=#334155;ellipse;fillColor=#ffffff;whiteSpace=wrap;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="744" y="173" width="300" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="sub1" value="记录身份查询审计" style="fontFamily=Microsoft YaHei;fontColor=#111827;strokeColor=#334155;ellipse;fillColor=#ffffff;whiteSpace=wrap;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="744" y="305" width="300" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-link0" value="" style="fontFamily=Microsoft YaHei;fontColor=#111827;strokeColor=#334155;fontSize=15;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="actor0" target="main">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-link1" value="" style="fontFamily=Microsoft YaHei;fontColor=#111827;strokeColor=#334155;fontSize=15;labelBackgroundColor=#ffffff;endArrow=none;" edge="1" parent="1" source="actor1" target="main">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relation0" value="«include»" style="fontFamily=Microsoft YaHei;fontColor=#111827;strokeColor=#334155;fontSize=15;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="main" target="sub0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relation1" value="«include»" style="fontFamily=Microsoft YaHei;fontColor=#111827;strokeColor=#334155;fontSize=15;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="main" target="sub1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
